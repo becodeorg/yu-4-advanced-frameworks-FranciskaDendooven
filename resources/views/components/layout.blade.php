@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <title>My first Laravel Form</title>
-<link rel="stylesheet" href="app.css">
+{{-- <link rel="stylesheet" href="app.css"> --}}
 
 
 <body>

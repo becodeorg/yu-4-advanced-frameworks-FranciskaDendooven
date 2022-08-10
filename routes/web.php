@@ -14,7 +14,7 @@ use App\Http\Controllers\FormController;
 |
 */
 
-Route::get('/', [FormController::class, 'index'])->name('welcome');
+Route::get('/', [FormController::class, 'index'])->name('home');
 
 Route::get('form', [FormController::class, 'show'])->name('form');
 
