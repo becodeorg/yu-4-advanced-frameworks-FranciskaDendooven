@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.3px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-image: url(/bg-form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .index-home {
+  margin: 2.5rem;
+}/*# sourceMappingURL=style.css.map */

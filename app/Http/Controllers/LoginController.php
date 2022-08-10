@@ -26,9 +26,38 @@ class LoginController extends Controller
             'password' => 'The password you used is invalid'
         ]);
     }
+    
     public function logout()
     {
     auth()->logout();
     return redirect('/');
 }
+
+public function submitSignUp(Request $request)
+    {
+        // dd($request);
+        $attributes = $request->validate([
+            'name'=> ['required', 'max:255'],
+            'password'=> ['required', 'min:7', 'max:255'],
+            'email'=>['required', 'email', 'unique:users,email'],
+        ]);
+
+        $user = User::create($attributes);
+
+        session()->flash('success', 'Successful signup');
+        auth()->login($user);
+        return redirect('/');
+    }
+
+    public function session($key=null, $default = null)
+    {
+        if(is_null($key)){
+            return app('session');
+        }
+        if(is_array($key)){
+            return app('session')->put($key);
+        }
+        return app('session')->get($key, $default);
+    }
+
 }

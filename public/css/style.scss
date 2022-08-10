@@ -1,0 +1,21 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    letter-spacing: .3px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+  }
+  
+  body{
+    //   background-color: #ccc;
+      background-image: url(/bg-form.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    //   background-position: baseline;
+
+    .index-home{
+        margin: 2.5rem;
+    }
+  
+  }
