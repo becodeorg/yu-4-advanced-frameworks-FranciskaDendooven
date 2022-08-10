@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [FormController::class, 'index'])->name('welcome');
+
+Route::get('form', [FormController::class, 'show'])->name('form');
+
+// Route::get('', function () {
+//     return view('components/footer');
+// })->name('');
+
+// Route::get('/', function () {
+//     return view('components/header');
+// })->name('');
