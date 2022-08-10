@@ -1,9 +1,10 @@
 
     <section class="index-login">
+        <p>This is the form!</p>
         <div class="wrapper">
             <div class="index-login-signup">
                 <p>Don't have an account yet? Sign up here!</p>
-                <form action="" method="post">
+                {{-- <form action="" method="post">
                     @csrf
                     <input type="text" name="name" value="Username">
                     <input type="password" name="password" value="Password">
@@ -11,13 +12,13 @@
                     <input type="text" name="email" value="E-mail">
                     <br>
                     <button type="submit" name="submit">SIGN UP</button>
-                </form>
+                </form> --}}
         </div>
         <br>
         <hr>
         <div class="index-login-login">
             <p>Have an account? Login here!</p>
-            <form action="" method="post">
+            <form action="{{ route('submitLogin') }}" method="post">
                 @csrf
                 <input type="text" name="name" value="Username">
                 @error('name')

@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\LoginController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,8 @@ use App\Http\Controllers\FormController;
 Route::get('/', [FormController::class, 'index'])->name('home');
 
 Route::get('form', [FormController::class, 'show'])->name('form');
+
+Route::post('login', [LoginController::class, 'submitLogin'])->name('submitLogin');
 
 // Route::get('', function () {
 //     return view('components/footer');
