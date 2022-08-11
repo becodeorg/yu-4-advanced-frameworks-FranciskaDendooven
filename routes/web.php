@@ -22,11 +22,11 @@ Route::get('/', [FormController::class, 'index'])->name('home');
 
 Route::get('form', [FormController::class, 'show'])->name('form');
 
-// Route::get('form', function()
-// {
-//     return Cache::get( 'name', 10, function (){
-//         return 'submitLogin';});
-//     });
+Route::get('form-body', function()
+{
+    return Cache::get( 'name', 10, function (){
+        return 'submitLogin';});
+    });
 
 Route::post('login', [LoginController::class, 'submitLogin'])->name('submitLogin');
 
