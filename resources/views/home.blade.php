@@ -1,16 +1,16 @@
 @extends('components.layout')
     @section('content')
-        <h1>Welcome</h1>
         <section class="index-home">
-            <div class="wrapper">
-                <div class="">
-                    <p>Don't have an account yet? Sign up here!</p>
+            <h1 id="welcome">Welcome</h1>
+                <div class="signup">
+                    <p>Don't have an account yet?<br>Sign up here!</p>
+                    <br>
                     <h4><a href="{{ route('form') }}">SIGN UP</a></h4>
             </div>
-            <br>
             <hr>
-            <div class="">
+            <div class="login">
                 <p>Have an account? Login here!</p>
+                <br>
                 <h4><a href="{{ route('form') }}">LOGIN</a></h4>
             </div>
         </section>

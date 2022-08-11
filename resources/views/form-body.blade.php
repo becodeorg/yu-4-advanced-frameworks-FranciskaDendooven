@@ -2,7 +2,6 @@
 @section('content')
     <section class="index-login">
         <p>Hi there! Please sign up to enjoy the full usage of ''. Sign up form is right DOWN HERE. </p>
-        <div class="wrapper">
             <div class="index-login-signup">
                 <p>Don't have an account yet? Sign up here!</p>
                 <form action="{{ route('submitSignUp') }}" method="post">

@@ -4,11 +4,57 @@
   padding: 0;
   letter-spacing: 0.3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
 }
 
 body {
-  background-color: #ccc;
+  margin: 3rem;
+  background-image: url(/bg-form.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 body .index-home {
-  margin: 2.5rem;
+  display: grid;
+  grid-template-rows: 0.5fr repeat(2, 10%);
+  justify-content: center;
+  align-items: center;
+  margin-top: 1em;
+  background-color: rgba(249, 167, 136, 0.3);
+  width: 400px;
+  height: 450px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  -ms-border-radius: 10px 10px 10px 10px;
+  -o-border-radius: 10px 10px 10px 10px;
+  transition: 0.1s;
+}
+body .index-home:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 16px 0 rgba(223, 192, 223, 0.6);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+}
+body .index-home #welcome {
+  text-align: left;
+  font-family: "Impact", "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  font-size: 24px;
+  margin-top: 3rem;
+  margin-left: 1rem;
+  color: #DF8E61;
+  text-shadow: 2.5px 0.5px #252027;
+  margin-top: -3rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}
+body .index-home .signup {
+  margin-top: -6rem;
+  text-align: center;
+}
+body .index-home .login {
+  text-align: center;
+  margin-top: -6rem;
 }/*# sourceMappingURL=style.css.map */
