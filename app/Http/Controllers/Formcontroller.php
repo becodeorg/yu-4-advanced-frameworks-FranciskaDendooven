@@ -14,4 +14,9 @@ class Formcontroller extends Controller
     {
         return view('form-body');
     }
+
+    public function showNews()
+    {
+        return view('newspage');
+    }
 }

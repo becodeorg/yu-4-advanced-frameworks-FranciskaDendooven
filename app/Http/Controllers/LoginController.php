@@ -18,7 +18,7 @@ class LoginController extends Controller
 
         if(auth()->attempt($attributes)) {
             session()->flash('success', 'Successful login');
-            return redirect('/');
+            return redirect('newspage');
         }
         //Invalid error msg
         throw ValidationException::withMessages([
@@ -46,7 +46,7 @@ public function submitSignUp(Request $request)
 
         session()->flash('success', 'Successful signup');
         auth()->login($user);
-        return redirect('/');
+        return redirect('newspage');
     }
 
     public function session($key=null, $default = null)

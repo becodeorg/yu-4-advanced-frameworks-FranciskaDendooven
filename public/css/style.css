@@ -7,9 +7,7 @@
 }
 
 body {
-  background-image: url(/bg-form.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #ccc;
 }
 body .index-home {
   margin: 2.5rem;

@@ -1,4 +1,5 @@
-
+@extends('components/layout')
+@section('content')
     <section class="index-login">
         <p>Hi there! Please sign up to enjoy the full usage of ''. Sign up form is right DOWN HERE. </p>
         <div class="wrapper">
@@ -34,4 +35,4 @@
         </div>
     </section>
     <a href="{{ route('home') }}">Home</a>
-
+@endsection

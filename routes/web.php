@@ -32,4 +32,6 @@ Route::post('login', [LoginController::class, 'submitLogin'])->name('submitLogin
 
 Route::post('signUp', [LoginController::class, 'submitSignUp'])->name('submitSignUp');
 
+Route::get('newspage', [FormController::class, 'showNews'])->name('newspage');
+
 Route::get('logout', [App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
