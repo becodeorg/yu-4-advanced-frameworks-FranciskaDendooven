@@ -10,7 +10,7 @@
                     <br>
                     <h4><a href="{{ route('submitSignUp') }}"><button>SIGN UP</button></a></h4>
             </div>
-
+                <img src="/public/img/bg-homepage-45.svg" alt="">
             </div>
             <br>
             <div class="login">

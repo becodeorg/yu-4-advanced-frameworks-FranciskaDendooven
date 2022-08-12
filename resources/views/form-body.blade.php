@@ -1,6 +1,6 @@
 @extends('components/layout')
 @section('content')
-        <div class="index-login-login">
+        <div class="index-home">
             <p>Have an account? Login here!</p>
             <form action="{{ route('submitLogin') }}" method="post">
                 @csrf
