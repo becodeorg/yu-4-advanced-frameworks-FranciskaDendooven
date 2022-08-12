@@ -4,15 +4,12 @@
   padding: 0;
   letter-spacing: 0.3px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
+  color: rgb(12, 11, 11);
 }
 
 body {
   margin: 3rem;
-  background-image: url(/bg-form.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
+  background-color: #ccc;
 }
 body .index-home {
   display: grid;
@@ -54,7 +51,33 @@ body .index-home .signup {
   margin-top: -6rem;
   text-align: center;
 }
+body .index-home .signup button {
+  background-color: #DF8E61;
+  border: none;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -o-border-radius: 20px 20px 20px 20px;
+}
 body .index-home .login {
   text-align: center;
   margin-top: -6rem;
+}
+body .index-home .login button {
+  background-color: #DF8E61;
+  border: none;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -o-border-radius: 20px 20px 20px 20px;
 }/*# sourceMappingURL=style.css.map */

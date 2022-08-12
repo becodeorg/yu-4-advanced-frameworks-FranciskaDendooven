@@ -19,4 +19,9 @@ class Formcontroller extends Controller
     {
         return view('newspage');
     }
+
+    public function showSubmitSignUp()
+    {
+        return view('form-body-signup');
+    }
 }

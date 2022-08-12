@@ -28,7 +28,11 @@ Route::get('form-body', function()
         return 'submitLogin';});
     });
 
+// Route::get('login', [FormController::class, 'showSubmitLogin'])->name('showSubmitLogin');
+
 Route::post('login', [LoginController::class, 'submitLogin'])->name('submitLogin');
+
+Route::get('signUp', [FormController::class, 'showSubmitSignUp'])->name('showSubmitSignUp');
 
 Route::post('signUp', [LoginController::class, 'submitSignUp'])->name('submitSignUp');
 

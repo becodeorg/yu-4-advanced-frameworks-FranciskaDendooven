@@ -5,16 +5,16 @@
     padding: 0;
     letter-spacing: .3px;
     font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    color: #fff;
+    color: rgb(12, 11, 11);
   }
   
   body{
     margin: 3rem;
-      // background-color: #ccc;
-      background-image: url(/bg-form.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 100vh;
+      background-color: #ccc;
+      // background-image: url(/bg-form.jpg);
+      // background-repeat: no-repeat;
+      // background-size: cover;
+      // height: 100vh;
 
     .index-home{
       display: grid;
@@ -57,12 +57,38 @@
       .signup{
         margin-top: -6rem;
         text-align: center;
+        
+        button{
+          background-color: #DF8E61;
+          border: none;
+          padding-left: 4em;
+          padding-right: 4em;
+          padding-top: .5em;
+          padding-bottom: .5em;
+          border-radius: 20px 20px 20px 20px ;
+          -webkit-border-radius: 20px 20px 20px 20px ;
+          -moz-border-radius: 20px 20px 20px 20px ;
+          -ms-border-radius: 20px 20px 20px 20px ;
+          -o-border-radius: 20px 20px 20px 20px ;
+}
       }
 
       .login{
         text-align: center;
         margin-top: -6rem;
+       
+        button{
+          background-color: #DF8E61;
+          border: none;
+          padding-left: 4em;
+          padding-right: 4em;
+          padding-top: .5em;
+          padding-bottom: .5em;
+          border-radius: 20px 20px 20px 20px ;
+          -webkit-border-radius: 20px 20px 20px 20px ;
+          -moz-border-radius: 20px 20px 20px 20px ;
+          -ms-border-radius: 20px 20px 20px 20px ;
+          -o-border-radius: 20px 20px 20px 20px ;
       }
 }
-  
-  }
+    }}
