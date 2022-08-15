@@ -150,14 +150,18 @@
 
   .login-form{
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
     color: #EDEDED;
+
+    #welcome{
+      margin-bottom: 1rem;
+    }
 
     input{
       padding-top: .3em;
       padding-bottom: .1em;
       padding-left: .6em;
-      margin-top: 1rem;
+      margin-bottom: 1rem;
       border-radius: 20px 20px 20px 20px;
       -webkit-border-radius: 20px 20px 20px 20px;
       -moz-border-radius: 20px 20px 20px 20px;
@@ -212,5 +216,56 @@
 }
 #home{
   color: #EDEDED;
+}
+
+#hi-there{
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+}
+.submit-form{
+  text-align: center;
+    margin-top: 2rem;
+    color: #EDEDED;
+
+    input{
+      padding-top: .3em;
+      padding-bottom: .1em;
+      padding-left: .6em;
+      margin-bottom: 1rem;
+      border-radius: 20px 20px 20px 20px;
+      -webkit-border-radius: 20px 20px 20px 20px;
+      -moz-border-radius: 20px 20px 20px 20px;
+      -ms-border-radius: 20px 20px 20px 20px;
+      -o-border-radius: 20px 20px 20px 20px;
+}
+}
+.login-button{
+  cursor: pointer;
+  color: #EDEDED;
+  border: none;
+  margin-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background:linear-gradient(to top, #171717 ,#444444);
+  border-radius: 20px 20px 20px 20px ;
+  -webkit-border-radius: 20px 20px 20px 20px ;
+  -moz-border-radius: 20px 20px 20px 20px ;
+  -ms-border-radius: 20px 20px 20px 20px ;
+  -o-border-radius: 20px 20px 20px 20px ;
+  transition: 0.1s;
+&:hover
+{
+transform: scale(1.06);
+box-shadow: 0 8px 16px 0 rgba(23, 23, 23, .6);
+-webkit-transform: scale(1.06);
+-moz-transform: scale(1.06);
+-ms-transform: scale(1.06);
+-o-transform: scale(1.06);
+}
 }
 }

@@ -138,14 +138,17 @@ body footer {
 }
 body .login-form {
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
   color: #EDEDED;
+}
+body .login-form #welcome {
+  margin-bottom: 1rem;
 }
 body .login-form input {
   padding-top: 0.3em;
   padding-bottom: 0.1em;
   padding-left: 0.6em;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
   border-radius: 20px 20px 20px 20px;
   -webkit-border-radius: 20px 20px 20px 20px;
   -moz-border-radius: 20px 20px 20px 20px;
@@ -197,4 +200,52 @@ body #local-butcher-login {
 }
 body #home {
   color: #EDEDED;
+}
+body #hi-there {
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1rem;
+  margin-bottom: -1.5rem;
+}
+body .submit-form {
+  text-align: center;
+  margin-top: 2rem;
+  color: #EDEDED;
+}
+body .submit-form input {
+  padding-top: 0.3em;
+  padding-bottom: 0.1em;
+  padding-left: 0.6em;
+  margin-bottom: 1rem;
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -o-border-radius: 20px 20px 20px 20px;
+}
+body .login-button {
+  cursor: pointer;
+  color: #EDEDED;
+  border: none;
+  margin-top: 1em;
+  padding-left: 4em;
+  padding-right: 4em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background: linear-gradient(to top, #171717, #444444);
+  border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -ms-border-radius: 20px 20px 20px 20px;
+  -o-border-radius: 20px 20px 20px 20px;
+  transition: 0.1s;
+}
+body .login-button:hover {
+  transform: scale(1.06);
+  box-shadow: 0 8px 16px 0 rgba(23, 23, 23, 0.6);
+  -webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
 }/*# sourceMappingURL=style.css.map */

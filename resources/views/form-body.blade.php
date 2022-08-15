@@ -2,14 +2,16 @@
 @section('content')
         <div class="index-home">
         <div class="login-form">
-            <p>Welcome back! Login here!</p>
+            <p id="welcome">Welcome back! Login here!</p>
             <form action="{{ route('submitLogin') }}" method="post">
                 @csrf
+                <label for="name">Username:</label><br>
                 <input type="text" name="name" value="Username">
                 @error('name')
                 <li>{{ $message }}</li>
                 @enderror
                 <br>
+                <label for="password">Password:</label><br>
                 <input type="password" name="password" value="Password">
                 @error('password')
                 <li>{{ $message }}</li>
