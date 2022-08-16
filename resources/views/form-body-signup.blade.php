@@ -7,12 +7,11 @@
                     @csrf
                     <label for="name">Username:</label><br>
                     <input type="text" name="name" value="Username"><br>
-                    <label for="password">Password <br>
-                        (longer than 8 letters, numbers, ...):</label><br>
+                    <label for="password">Password </label><br><label id="password" for="password">(longer than 8 letters, numbers, ...):</label><br>
                     <input type="password" name="password" value="Password"><br>
                     <label for="password-repeat">Repeat password:</label><br>
                     <input type="password" name="password-repeat" value="Repeat password"><br>
-                    <label for="email">email:</label><br>
+                     <label for="email">email:</label><br>
                     <input type="text" name="email" value="mail@example.xmail">
                     <br>
                     <button class="login-button" type="submit" name="submit">SIGN UP</button>

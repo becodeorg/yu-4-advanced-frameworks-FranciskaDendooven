@@ -39,3 +39,5 @@ Route::post('signUp', [LoginController::class, 'submitSignUp'])->name('submitSig
 Route::get('newspage', [FormController::class, 'showNews'])->name('newspage');
 
 Route::get('logout', [App\Http\Controllers\LoginController::class, 'logout'])->name('logout');
+
+Route::get('calender', [FormController::class, 'showCalender'])->name('calender');

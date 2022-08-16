@@ -3,7 +3,7 @@
 <title>My first Laravel Form</title>
 <link rel="stylesheet" href="/css/style.css">
 <script defer src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js"></script>
-
+<script defer src="/resources/js/app.js"></script>
 
 <body>
     @if(session()->has('success'))

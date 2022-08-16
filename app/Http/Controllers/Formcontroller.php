@@ -24,4 +24,9 @@ class Formcontroller extends Controller
     {
         return view('form-body-signup');
     }
+
+    public function showCalender()
+    {
+        return view('calender');
+    }
 }
